@@ -9,6 +9,7 @@
 Footer{
     box-shadow: 0px 0px 5px 2px rgb(157, 156, 156);
 
+
 }
 
 main {
@@ -20,7 +21,9 @@ main {
         height: 70vh;
     }
 
-    video {
+    img {
+        background-size: contain ;
+        width: 100vw;
         height: 70vh;
         position: absolute;
         z-index: -2;

@@ -10,8 +10,8 @@ export default {
       {
         header: '#8da9c4',
         gray: '#BAB2B5',
-        offwhite:'#FFDEAD'
-        
+        offwhite:'#FFDEAD',
+        bgcolor:'rgba(255, 111, 16, 0.727)'
       },
       boxShadow:{
         md: 'inset 0px 0px 8px 2px rgb(180 83 9)',
@@ -20,10 +20,6 @@ export default {
 
         
       },
-      transitionDuration: {
-        '2000': '2000ms',
-      }
-      
     },
     height: {
 			"10v": "10vh",
@@ -39,6 +35,6 @@ export default {
 		},
     
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate"),],
 }
 

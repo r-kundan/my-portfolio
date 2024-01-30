@@ -1,19 +1,20 @@
 import React from "react";
 import "../style/Home.scss";
+import {Link} from "react-router-dom"
 
 
 function About() {
   return (
     <div id="education">
       <section>
-        <div className="m-4 top-4 flex flex-col justify-center ">
-          <h1 className="bg-amber-700 m-4 rounded-lg p-3 flex justify-center text-white">
+        <div className="group m-4 top-4 flex flex-col justify-center ">
+          <h1 className="bg-amber-700 m-4 rounded-lg p-3 flex justify-center text-white ">
             <b>EDUCATIION :-</b>
           </h1>
           <div className="m-4">
             <div className="border-none p-4 shadow-md shadow-amber-600 rounded-lg">
               <h3 className='text-amber-700 text-lg'>
-                <span className='text-amber-700 '><b>2019-2022</b></span> | Guru Jambheshwar University
+                <span className='text-amber-700 '><b>2019-2022</b></span> <Link to="https://www.gjust.ac.in/" target="_blank">| Guru Jambheshwar University</Link>
               </h3>
              <div className="px-6 m-2"> <h2 className="font-bold">BACHELOR OF SCIENCE IN COMPUTER SCIENCE </h2>
               <h5 className="italic tracking-wider pl-3">
@@ -26,7 +27,7 @@ function About() {
             <div className="border-none p-4 shadow-md shadow-amber-600  rounded-lg">
               
               <h3 className='text-amber-700 text-lg'>
-                <span><b>2018-2019</b></span> | Central Board of Secondary Education
+                <span><b>2018-2019</b></span> <Link to="https://www.cbse.gov.in/cbsenew/cbse.html" target="_blank">| Central Board of Secondary Education</Link>
               </h3>
              <div className="px-6 m-2"> <h2 className="font-bold">Non-medical-PCM </h2>
               <h5 className="italic tracking-wider pl-3">
