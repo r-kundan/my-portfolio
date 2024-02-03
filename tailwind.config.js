@@ -15,11 +15,28 @@ export default {
           right:{
             '0%': { transform: 'translate(400%,0%) skewX(0deg)' },
             '100%': { transform: 'translate(0%,0%) skewX(2deg)' },
-          }
+          },
+          fall:{
+            '0%': { transform: 'translate(0%,-400%) skewX(0deg)' },
+            '100%': { transform: 'translate(0%,0%) skewX(0deg)' }
+          },
+          fallText:{
+            from: { transform: 'translateY(-150%)' },
+            to: { transform: 'translateY(10%)' },
+          },
+          slide: {
+           
+            from: { transform: 'translateX(100%)' },
+            to: { transform: 'translateX(-100%)' },
+          },
+         
         },
   
   animation: {
-    left: 'left 3s ease',
+    fall: 'fall 3s ease',
+    fallText: 'fallText 2s linear infinite',
+    slide: 'slide 20s linear infinite',
+    left: 'left 2s ease',
        right: 'right 3s ease',
   }
       ,
