@@ -47,8 +47,8 @@ export default function Header() {
           <div>
             <ul
               className={` flex justify-end sm:z-auto bg-white   absolute sm:static left-[-0px] w-full  sm:w-auto sm:pl-0  transition-all duration-500 ease-in ${
-                isopen ? "top-12" : "top-[-500px]"
-              } flex-col  sm:flex-row justify-between   `}
+                isopen ? "top-14" : "top-[-500px]"
+              } flex-col  sm:flex-row justify-between    `}
             >
               {navbar.map((item, index) => (
                 <li key={index} className="m-2">
