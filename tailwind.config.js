@@ -6,6 +6,23 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {            
+        left: {
+            '0%': { transform: 'translate(-400%,0%) skewX(0deg)' },
+            '100%': { transform: 'translate(0%,0%) skewX(2deg)' },
+            
+          },
+          right:{
+            '0%': { transform: 'translate(400%,0%) skewX(0deg)' },
+            '100%': { transform: 'translate(0%,0%) skewX(2deg)' },
+          }
+        },
+  
+  animation: {
+    left: 'left 3s ease',
+       right: 'right 3s ease',
+  }
+      ,
       colors:
       {
         header: '#8da9c4',

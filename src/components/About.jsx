@@ -48,6 +48,7 @@ function About() {
 
         
       </section>
+      
       <section>
         <div className="m-4  flex flex-col justify-center ">
           <h1 className="bg-amber-700 m-4 rounded-lg p-3 flex justify-center text-white">
@@ -95,11 +96,6 @@ function About() {
           </div>
         </div>
       </section>
-
-
-
-
-
 
       <section>
         <div className="m-4  flex flex-col justify-center ">

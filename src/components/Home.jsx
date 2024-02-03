@@ -12,7 +12,7 @@ function Home() {
         >
 
 
-          <div className=' text-offwhite font-semibold'>
+          <div className=' text-offwhite font-semibold animate-left'>
             <h1 className=" text-2xl lg:text-4xl"><span>Hi, It's me</span></h1>
             <h2 className=' text-3xl lg:text-6xl '>Renu Kundan</h2>
             <div className=" text-2xl  lg:text-4xl ">
@@ -32,7 +32,8 @@ function Home() {
               />
             </div>
           </div>
-          <div className="w-2/4 shadow-iconsha text-center  bg-bgcolor rounded-xl text-white font-semibold p-4">
+
+          <div className="w-2/4 shadow-iconsha text-center  bg-bgcolor rounded-xl text-white font-semibold animate-right p-4">
            <div className="opacity-100 z-1 ">
            <h4 >I hold a Bachelor of Science degree in Computer Science. I acquired a solid foundation in various computer science concepts. I consider my self a responsible and orderly person.</h4>
            </div>
