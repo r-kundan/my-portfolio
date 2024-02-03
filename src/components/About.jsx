@@ -7,7 +7,7 @@ function About() {
   return (
     <div id="education">
       <section>
-        <div className="group m-4 top-4 flex flex-col justify-center ">
+        <div className="group m-4 top-4 flex flex-col justify-center animate-fall ">
           <h1 className="bg-amber-700 m-4 rounded-lg p-3 flex justify-center text-white ">
             <b>EDUCATIION :-</b>
           </h1>
@@ -50,7 +50,7 @@ function About() {
       </section>
       
       <section>
-        <div className="m-4  flex flex-col justify-center ">
+        <div className="m-4 animate-left flex flex-col justify-center ">
           <h1 className="bg-amber-700 m-4 rounded-lg p-3 flex justify-center text-white">
             <b>PROGRAMMING KNOWLEDGE :-</b>
           </h1>
@@ -98,7 +98,7 @@ function About() {
       </section>
 
       <section>
-        <div className="m-4  flex flex-col justify-center ">
+        <div className="m-4 animate-right flex flex-col justify-center ">
           <h1 className="bg-amber-700 m-4 rounded-lg p-3 flex justify-center text-white">
             <b>HOBBIES :-</b>
           </h1>

@@ -33,7 +33,7 @@ export default {
         },
   
   animation: {
-    fall: 'fall 3s ease',
+    fall: 'fall 2s ease',
     fallText: 'fallText 2s linear infinite',
     slide: 'slide 20s linear infinite',
     left: 'left 2s ease',
