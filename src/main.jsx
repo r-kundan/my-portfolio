@@ -19,7 +19,7 @@ const router = createBrowserRouter(
       <Route path='/about' element={<Suspense fallback={"loading..."}><About/></Suspense>}/>
       <Route path='/img' element={<Suspense fallback={"loading..."}><Img/></Suspense>} />
       {/* <Route path='/project' element={<Project/>} /> */}
-      <Route path='/cv' element={<Suspense fallback={"loading..."}><CV/></Suspense>}/>
+      {/* <Route path='/cv' element={<Suspense fallback={"loading..."}><CV/></Suspense>}/> */}
       {/* <Route path='/contact' element={<Contect/>}/> */}
     </Route>
    

@@ -17,10 +17,10 @@ export default function Header() {
       name: "Image",
       to: "/img",
     },
-    {
-      name: "CV",
-      to: "/cv",
-    },
+    // {
+    //   name: "CV",
+    //   to: "/cv",
+    // },
     // {
     //     name: "Contact",
     //     to: "/contact"
