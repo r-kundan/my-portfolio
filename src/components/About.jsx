@@ -99,18 +99,17 @@ function About() {
 
       <section>
         <div className="m-4 animate-right flex flex-col justify-center ">
-          <h1 className="bg-amber-700 m-4 rounded-lg p-3 flex justify-center text-white">
+          <h1 className="bg-amber-700 m-4 rounded-lg p-3 flex justify-center  text-white">
             <b>HOBBIES :-</b>
           </h1>
-          <div className="m-4 flex items-center flex-col justify-evenly ">
+          <div className="m-4 flex items-center flex-col justify-evenly md:flex-row">
             <div className="border-none p-4 shadow-md shadow-amber-600 rounded-lg">
               <h3 className='text-amber-700 text-lg'>
                 <span className='text-amber-700 '><b>INDOOR GAME</b></span> 
               </h3>
              <div className="px-6 m-2 "> <h2 className="font-bold">CHESS</h2>
               <h5 className="italic tracking-wider pl-3">
-                <h5>#CHESS_LOVER</h5>
-              I love playing chess.
+              #CHESS_LOVER
               </h5></div>
             </div>
             <br />

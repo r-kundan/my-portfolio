@@ -14,21 +14,18 @@ export default function Header() {
       to: "/about",
     },
     {
-      name: "Image",
-      to: "/img",
+      name: "Projects",
+      to: "/projects"
+  },
+    {
+      name: "CV",
+      to: "/cv",
     },
-    // {
-    //   name: "CV",
-    //   to: "/cv",
-    // },
-    // {
-    //     name: "Contact",
-    //     to: "/contact"
-    // },
+   
   ];
 
   return (
-    <header className="shadow-lg  sticky top-0 h-18">
+    <header className="shadow-lg z-[1] sticky top-0 h-18">
       <nav className="bg-white">
         <div className="flex justify-between pl-8 sm:pl-20 pr-20 w-full items-center">
           <div className="text-amber-700 text-2xl flex items-center animate-bounce animate-infinite
