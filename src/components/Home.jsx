@@ -6,7 +6,6 @@ import ParticlesBg from "./ParticlesBG";
 function Home() {
   return (
     <div className=" w-screen">
-      <ParticlesBg></ParticlesBg>
       <main className="w-full z-[-1]">
         <div
           id="container"
@@ -42,6 +41,7 @@ function Home() {
           </div>
 
         </div>
+      <ParticlesBg></ParticlesBg>
        
         <img   src="https://source.unsplash.com/6Pou6SeJ6cY" alt="" />
         {/* <video
