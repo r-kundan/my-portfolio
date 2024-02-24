@@ -1,10 +1,12 @@
 import React from "react";
 import "../style/Home.scss";
 import { TypeAnimation } from 'react-type-animation';
+import ParticlesBg from "./ParticlesBG";
 
 function Home() {
   return (
     <div className=" w-screen">
+      <ParticlesBg></ParticlesBg>
       <main className="w-full z-[-1]">
         <div
           id="container"

@@ -18,7 +18,7 @@ const router = createBrowserRouter(
       <Route path='/about' element={<Suspense fallback={"loading..."}><About/></Suspense>}/>
   
       <Route path='/projects' element={<Project/>} />
-      <Route path='/cv' element={<Suspense fallback={"loading..."}><CV/></Suspense>}/>
+      <Route path='/cv' element={<Suspense fallback={"loading..."}><CV /></Suspense>}/>
       {/* <Route path='/contact' element={<Contect/>}/> */}
     </Route>
    
