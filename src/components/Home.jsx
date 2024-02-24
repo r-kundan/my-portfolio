@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Home.scss";
 import { TypeAnimation } from 'react-type-animation';
-import ParticlesBg from "./ParticlesBG";
+import ParticlesBg from "./ParticlesBG.jsx";
 
 function Home() {
   return (
@@ -44,13 +44,7 @@ function Home() {
       <ParticlesBg></ParticlesBg>
        
         <img   src="https://source.unsplash.com/6Pou6SeJ6cY" alt="" />
-        {/* <video
-          src="./src/assets/mainbg.mp4"
-          autoPlay
-          muted
-          loop
-          className=" w-full object-fill opacity-90"
-        ></video> */}
+
       </main>
 
 
