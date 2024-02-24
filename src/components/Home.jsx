@@ -1,8 +1,7 @@
 import React from "react";
 import "../style/Home.scss";
 import { TypeAnimation } from 'react-type-animation';
-// import ParticlesBg from "./ParticlesBg";
-import ParticlesBg from "./ParticlesBg"
+import ParticlesBg from "./ParticlesBg.jsx"
 
 function Home() {
   return (
