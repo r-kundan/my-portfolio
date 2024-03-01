@@ -42,6 +42,46 @@ function Project() {
             </Link>
           </div>
         </div>
+
+          <div className="border-none  flex-col items-center justify-center shadow-md shadow-amber-600 flex rounded-lg">
+          <div className="flex justify-center">
+            <div className="absolute">
+              <h3 className="text-amber-700 p-4 text-2xl">
+                <span className="text-white">
+                  <b className="">Twitter Clone</b>
+                </span>
+              </h3>
+            </div>
+            <div className="relative z-[-1] ">
+              <img
+                className="rounded-t-lg h-[266px]"
+                src="https://source.unsplash.com/8ays4w9MDVk"
+                alt="clock img"
+              />
+            </div>
+          </div>
+          <div>
+            <Link
+              className="text-amber-700  text-lg"
+              to="https://twitter-clone-git-main-renukundans-projects.vercel.app/"
+              target="_blank"
+            >
+              <button className="shadow-lg p-2 m-4 border-2 text-white rounded-xl bg-amber-700 hover:shadow-lg hover:bg-amber-600">
+                Watch Link
+              </button>
+            </Link>
+            <Link
+              className="text-amber-700 text-lg"
+              to="https://github.com/r-kundan/twitter-clone"
+              target="_blank"
+            >
+              <button className="shadow-lg p-2 m-4 border-2 text-white rounded-xl bg-amber-700 hover:shadow-lg hover:bg-amber-600">
+                Github Link
+              </button>
+            </Link>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
