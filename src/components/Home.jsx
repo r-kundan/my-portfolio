@@ -6,7 +6,7 @@ import ParticlesBg from "./ParticlesBg.jsx"
 function Home() {
   return (
     <div className=" w-screen">
-      <main className="w-full z-[-1]">
+      <main className="w-full bg-slate-800 z-[-1]">
         <div
           id="container"
           className="flex flex-col items-center justify-evenly lg:flex-row "
